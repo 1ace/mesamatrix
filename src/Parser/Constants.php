@@ -70,7 +70,10 @@ abstract class Constants
 
     public const VK_ALL_DRIVERS = [
         "anv",
+        "dzn",
         "lvp",
+        "panvk",
+        "pvr",
         "radv",
         "tu",
         "v3dv",
@@ -80,10 +83,12 @@ abstract class Constants
     public const VK_ALL_DRIVERS_VENDORS = [
         "Intel"     => [ "anv" ],
         "Software"  => [ "lvp" ],
+        "Arm Mali"  => [ "panvk" ],
+        "Imagination" => [ "pvr" ],
         "AMD"       => [ "radv" ],
         "Qualcomm"  => [ "tu" ],
         "Broadcom"  => [ "v3dv" ],
-        "Emulation" => [ "vn" ],
+        "Emulation" => [ "dzn", "vn" ],
     ];
 
     // OpenCL.
