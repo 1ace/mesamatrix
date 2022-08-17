@@ -61,7 +61,7 @@ abstract class Constants
         "Vivante"   => [ "etnaviv" ],
         "Broadcom"  => [ "vc4", "v3d" ],
         "Arm"       => [ "lima", "panfrost" ],
-        "Emulation" => [ "d3d12", "virgl", "zink" ],
+        "Layered"   => [ "d3d12", "virgl", "zink" ],
     ];
 
     // Vulkan.
@@ -88,7 +88,7 @@ abstract class Constants
         "AMD"       => [ "radv" ],
         "Qualcomm"  => [ "tu" ],
         "Broadcom"  => [ "v3dv" ],
-        "Emulation" => [ "dzn", "vn" ],
+        "Layered"   => [ "dzn", "vn" ],
     ];
 
     // OpenCL.
