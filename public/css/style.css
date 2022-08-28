@@ -45,7 +45,7 @@ body {
     --matrix-ext-vivante-color: #a6d87a;
     --matrix-ext-broadcom-color: #ff8e8e;
     --matrix-ext-arm-color: #7acde8;
-    --matrix-ext-emulation-color:  #ffd6fc;
+    --matrix-ext-layered-color: #ffd6fc;
     --matrix-ext-hover-color: #ededed;
 
     /* donation */
@@ -76,7 +76,7 @@ body.dark-theme {
     --matrix-ext-vivante-color: #638148;
     --matrix-ext-broadcom-color: #a15959;
     --matrix-ext-arm-color: #497b8b;
-    --matrix-ext-emulation-color:  #8f778d;
+    --matrix-ext-layered-color: #8f778d;
     --matrix-ext-hover-color: #535353;
 
     /* donation */
@@ -107,7 +107,7 @@ body.dark-theme {
         --matrix-ext-vivante-color: #638148;
         --matrix-ext-broadcom-color: #a15959;
         --matrix-ext-arm-color: #497b8b;
-        --matrix-ext-emulation-color:  #8f778d;
+        --matrix-ext-layered-color: #8f778d;
         --matrix-ext-hover-color: #535353;
 
         /* donation */
@@ -138,7 +138,7 @@ body.dark-theme {
         --matrix-ext-vivante-color: #a6d87a;
         --matrix-ext-broadcom-color: #ff8e8e;
         --matrix-ext-arm-color: #7acde8;
-        --matrix-ext-emulation-color:  #ffd6fc;
+        --matrix-ext-layered-color: #ffd6fc;
         --matrix-ext-hover-color: #ededed;
 
         /* donation */
@@ -243,7 +243,7 @@ details > summary {
 .hCellVendor-vivante    { background-color: var(--matrix-ext-vivante-color); }
 .hCellVendor-broadcom   { background-color: var(--matrix-ext-broadcom-color); }
 .hCellVendor-arm        { background-color: var(--matrix-ext-arm-color); }
-.hCellVendor-emulation  { background-color: var(--matrix-ext-emulation-color); }
+.hCellVendor-layered    { background-color: var(--matrix-ext-layered-color); }
 
 .hCellSep       { width: 0px; }
 
